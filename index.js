@@ -1,3 +1,3 @@
-let automobiles = ["car", "truck", "motorcycle"]
+var automobiles = ["car", "truck", "motorcycle"]
 
-let automobilesCopy =
+var automobilesCopy =
