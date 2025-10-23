@@ -1,6 +1,7 @@
 const automobiles = ['car', 'truck', 'motorcycle'];
 automobiles.push('airplane', 'skateboard');
-automobiles.unshift('helicopter', 'bike');
+automobiles.unshift('helicopter');
+automobiles.unshift('bike');
 
 automobiles.pop();
 automobiles.shift();
