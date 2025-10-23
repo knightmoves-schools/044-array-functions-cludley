@@ -3,8 +3,9 @@ automobiles.push('airplane', 'skateboard');
 automobiles.unshift('helicopter');
 automobiles.unshift('bike');
 
+const automobilesCopy = `The current list of vehicles is: ${automobiles}`;
+
 automobiles.pop();
 automobiles.shift();
-const automobilesCopy = `The current list of vehicles is: ${automobiles}`;
 
 document.getElementById('result').innerHTML = automobiles;
